@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.place {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+.location {
+    position: absolute;
+    top: 50%;
+    margin-top: -65px;
+    font-size: 2rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bolder;
+}
+.clock {
+    position: absolute;
+    top: 50%;
+    font-size: 1em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: lighter;
+}
+.newyork {
+    background-color: #141a46;
+    color: #ec8b5e;
+}
+.india {
+    color: whitesmoke;
+    background-color: #242424;
+}
+.london {
+    color: #000000;
+    background-color: #f4ab96;
+}
+.japan {
+    color: #cc313d;
+    background-color: #f7c5cc;
+}
+#copyrights {
+    color: blanchedalmond;
+    background-color: black;
+    text-align: center;
+}
+#copyrights a {
+    margin: 10px;
+    align-items: center;
+    color: blanchedalmond;
+}
+
+@media only screen and (max-width: 976px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+    }
+    .place {
+        width: 100%;
+        min-height: 50%;
+    }
+    .location {
+        margin-top: -40px;
+    }
+    #time {
+        margin-bottom: -50px;
+    }
+}
