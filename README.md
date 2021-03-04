@@ -9,4 +9,4 @@ iv) Japan
 
 This is my first project with Javascript
 
-[here is the link](https://lokeswaran-aruljothi.github.io/Digital-clock/)
+[Here is the Output link](https://lokeswaran-aruljothi.github.io/Digital-clock/)
